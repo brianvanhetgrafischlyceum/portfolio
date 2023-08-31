@@ -1,0 +1,186 @@
+@font-face {
+    font-family: "ArchivoBlack";
+    src: url("/fonts/ArchivoBlack-Regular.ttf") format("truetype");
+}
+
+
+
+.spacer {
+    aspect-ratio: 1920/1080;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -399;
+    position: absolute;
+    padding-top: 10px;
+}
+
+
+
+
+
+.layer1 {
+    background-image: url('/svg/waves1.svg') ;
+}
+
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fbfbf2;
+}
+
+
+li {
+    margin: 38px;
+    text-decoration: none;
+    color: #14213d;
+}
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+nav {
+    width: 100%;
+    height: 140px;
+    z-index: 3;
+}
+
+header {
+    z-index: 1;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}   
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 20px;
+}
+
+.port-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.naam {
+    width: 48%;
+    font-size: 60px;
+    font-family: ArchivoBlack;
+    color: #14213d;
+    margin-top: 60px;
+    margin-left: 120px;
+
+    overflow: hidden;
+    border-right: 4px solid #14213d;
+    white-space: nowrap;
+    animation: typing 1s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+
+
+@keyframes typing {
+    from {width: 0;}
+    to {width: 50%;}
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent}
+    50% { border-color: #14213d;}
+}
+
+
+
+.tekstovermij {
+    margin-top: 250px;
+    padding-top: 20px;
+    background-color: #c1cdc1;
+    height: 500px;
+}
+
+.portfolio {
+    display: flex;
+    margin: 80px;
+}
+
+
+
+.portfoliotekst {
+    display: flex;
+    margin: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #14213d;
+    font-size: 35px;
+    padding-top: 20px;
+}
+
+.portcontekst {
+    width: 40%;
+    text-align: center;
+}
+.overmijtekst {
+    width: 60%;
+    text-align: center;
+    margin-left: -20px;
+
+}
+
+.portfoliocontact {
+    width: 40%;
+    margin-left: 80px;
+}
+
+.overmij {
+    width: 60%;
+    border-right: 2px solid #14213d;
+}
+
+
+
+
+.naamtekst {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 90px;
+    color: #567CC8;
+}
+
+.port-foto {
+    width: 40%;
+}
+
+.port-foto > img {
+    border-radius: 100%;
+}
+
+nav li:hover {
+    animation: 0.3s navHover;
+    border-bottom: 2px solid #14213d;
+}
+
+
+@keyframes navHover {
+    from {
+        border-bottom: 0px solid rgba(0, 0, 0, 0);
+    }
+    to {
+        border-bottom: 2px solid #14213d;
+    }
+}
+
