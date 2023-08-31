@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <div class="spacer layer1">
+    </div>
     <header>
         <nav>
             <ul>
@@ -18,7 +20,28 @@
 
     </header>
     <main>
-        CONTACT PAGINA MET DATABASE KOPPEL OF AUTOMATISCHE EMAIL
+        <div class="contactforum">Contact Forum</div>
+        <form action="/php/database.php" method="POST">
+            <label for="voornaam">Voornaam:</label>
+            <input type="text" name="voornaam" required><br>
+    
+            <label for="achternaam">Achternaam:</label>
+            <input type="text" name="achternaam" required><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" name="email" required><br>
+    
+            <label for="telefoonnummer">Telefoonnummer:</label>
+            <input type="text" name="telefoonnummer"><br>
+    
+            <label for="datum">Datum:</label>
+            <input type="date" name="datum" required><br>
+    
+            <label for="bericht">Bericht:</label><br>
+            <textarea name="bericht" rows="4" cols="50" required></textarea><br>
+    
+            <input type="submit" value="Submit">
+        </form>
     </main>
 </body>
 </html>

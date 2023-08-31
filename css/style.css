@@ -95,9 +95,28 @@ p {
 
 
 
+.contactforum {
+    overflow: hidden;
+    border-right: 4px solid #14213d;
+    white-space: nowrap;
+    animation: typing 1s steps(40, end), blink-caret .75s step-end infinite;
+    font-family: ArchivoBlack;
+    font-size: 60px;
+    color: #14213d;
+    text-align: center;
+    width: 500px;
+    padding-left: 32%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
 @keyframes typing {
     from {width: 0;}
-    to {width: 50%;}
+    to {width: 36%;}
 }
 
 @keyframes blink-caret {
