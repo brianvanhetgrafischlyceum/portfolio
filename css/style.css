@@ -1,6 +1,6 @@
 @font-face {
     font-family: "ArchivoBlack";
-    src: url("./fonts/ArchivoBlack-Regular.ttf") format("truetype");
+    src: url("/fonts/ArchivoBlackRegular.ttf") format("truetype");
 }
 
 
@@ -23,7 +23,7 @@
 
 
 .layer1 {
-    background-image: url('./svg/waves1.svg') ;
+    background-image: url('/svg/waves1.svg') ;
 }
 
 
@@ -118,7 +118,6 @@ p {
     text-align: center;
     width: 500px;
     padding-left: 32%;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
