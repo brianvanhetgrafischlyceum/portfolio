@@ -1,6 +1,6 @@
 @font-face {
     font-family: "ArchivoBlack";
-    src: url("/fonts/ArchivoBlackRegular.ttf") format("truetype");
+    src: url("/portfolio/fonts/ArchivoBlackRegular.ttf") format("truetype");
 }
 
 
@@ -23,7 +23,7 @@
 
 
 .layer1 {
-    background-image: url('/svg/waves1.svg') ;
+    background-image: url('/portfolio/svg/waves1.svg') ;
 }
 
 
@@ -118,6 +118,7 @@ p {
     text-align: center;
     width: 500px;
     padding-left: 32%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -214,3 +215,54 @@ nav li:hover {
     }
 }
 
+
+
+
+form {
+
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 100px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0px darkgray;
+    margin-bottom: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #14213d;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea {
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+input[type="submit"] {
+    background-color: #14213d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #14213d94;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}

@@ -1,6 +1,10 @@
 <?php
-$servername = "localhost";
-$username = "89607Admin";
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+
+$servername = "localhost:3306";
+$username = "89607admin";
 $password = "89607Admin1";
 $dbname = "89607portfolio";
 
