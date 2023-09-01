@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="spacer layer1">
@@ -28,7 +28,7 @@
 
 
         <div class="port-foto">
-          <img src="/images/Default_pfp.jpg" alt="Foto" />
+          <img src="./images/Default_pfp.jpg" alt="Foto" />
         </div>
       </div>
 
