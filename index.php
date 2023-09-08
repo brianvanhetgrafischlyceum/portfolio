@@ -55,19 +55,25 @@
       <div class="imghoofdtekst">Mijn werk</div>
       <div class="container1">
       <div class="img">
+        <a href="#" class="img">
             <img src="./images/placeholder.jpg" alt="Afbeelding 1">
+          </a>
             <div class="txt">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
         </div>
         <div class="img">
+        <a href="#" class="img">
             <img src="./images/placeholder.jpg" alt="Afbeelding 2">
+          </a>
             <div class="txt">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
         </div>
         <div class="img">
+        <a href="#" class="img">
             <img src="./images/placeholder.jpg" alt="Afbeelding 3">
+          </a>
             <div class="txt">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </div>
