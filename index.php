@@ -13,8 +13,8 @@
      <header>
       <nav>
         <ul>
-          <li><a href="index.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact Opnemen</a></li>
+          <li><a href="index.php">Portfolio</a></li>
+          <li><a href="contact.php">Contact Opnemen</a></li>
         </ul>
       </nav>
     </header>
@@ -43,7 +43,7 @@
       </div>
       <div class="portfolio">
         <div class="overmij">
-          <p>Mijn naam is Brian van den Berg, ik ben 20 jaar oud en woon in Zierikzee/Middelburg.</p>
+          <p>Mijn naam is Brian van den Berg, ik ben 20 jaar oud en woon in Zierikzee. Ik zit in het 2e jaar van mijn opleiding Software Development op het Grafisch lyceum in Rotterdam</p>
         </div>
         <div class="portfoliocontact">
           <li>brianvandenberg.19@gmail.com</li>
@@ -51,6 +51,30 @@
           <li>Eendrachtstraat 36 - 4301VM Zierikzee</li>
         </div>
       </div>
+
+      <div class="imghoofdtekst">Mijn werk</div>
+      <div class="container1">
+      <div class="img">
+            <img src="./images/placeholder.jpg" alt="Afbeelding 1">
+            <div class="txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+        </div>
+        <div class="img">
+            <img src="./images/placeholder.jpg" alt="Afbeelding 2">
+            <div class="txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+        </div>
+        <div class="img">
+            <img src="./images/placeholder.jpg" alt="Afbeelding 3">
+            <div class="txt">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+        </div>
+      </div>
+
+
       </div>
       </main>
   </body>

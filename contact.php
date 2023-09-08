@@ -13,7 +13,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="index.php">Portfolio</a></li>
                 <li><a href="contact.php">Contact Opnemen</a></li>
             </ul>
         </nav>

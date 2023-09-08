@@ -21,10 +21,10 @@
 
 
 
-
 .layer1 {
     background-image: url('/portfolio/svg/waves1.svg') ;
 }
+
 
 
 
@@ -142,7 +142,7 @@ p {
     margin-top: 250px;
     padding-top: 20px;
     background-color: #c1cdc1;
-    height: 500px;
+    height: 1050px;
 }
 
 .portfolio {
@@ -265,4 +265,57 @@ input[type="submit"]:hover {
 
 input[type="submit"]:focus {
     outline: none;
+}
+
+
+
+
+
+
+.echodb {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px darkgray;
+    margin-bottom: 20px;
+    color: rgb(89, 150, 89);
+    font-size: 20px;
+}
+
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.img > img{
+    width: 400px;
+    height: 300px;
+}
+
+.txt {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #14213d;
+    font-weight: bold;
+}
+
+
+
+
+.imghoofdtekst {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    color: #14213d;
+    font-family: ArchivoBlack;
 }
